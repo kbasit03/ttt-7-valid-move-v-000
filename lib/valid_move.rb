@@ -6,9 +6,9 @@ def valid_move?(board, index)
     return false
 	else 
 		return true  
-	end # end if-statement 
+	end 
 	
-	end # end position_taken?
+	end 
 	
 	def valid_num?(num)
     if num.between?(0, 8) == true
